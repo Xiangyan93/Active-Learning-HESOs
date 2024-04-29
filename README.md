@@ -12,6 +12,14 @@ Database Creation, data import and export.
         python import.py --input database/raw_data/purity_KS.csv --property purity --tag KS
         python import.py --input database/raw_data/purity_al_init.csv --property purity
         python import.py --input database/raw_data/T90_al_init.csv --property T90
+        python import.py --input database/raw_data/al1.csv --property purity
+        python import.py --input database/raw_data/al1.csv --property T90
+        python import.py --input database/raw_data/al2.csv --property purity
+        python import.py --input database/raw_data/al2.csv --property T90
+        python import.py --input database/raw_data/al3.csv --property purity
+        python import.py --input database/raw_data/al3.csv --property T90
+        python import.py --input database/raw_data/al4.csv --property purity
+        python import.py --input database/raw_data/al4.csv --property T90
         ```
    3. Optionally, you can export experimental data.
         ```
