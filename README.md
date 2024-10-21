@@ -29,5 +29,5 @@ Database Creation, data import and export.
         ```
         python3 active_learning.py --n_samples 5
         ```
-## Machine Learning
+## Figures
 See [notebook](https://github.com/Xiangyan93/Active-Learning-HESOs/tree/master/notebook).
