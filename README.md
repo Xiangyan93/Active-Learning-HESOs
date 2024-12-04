@@ -1,6 +1,13 @@
 # Active-Learning-HESOs
 Active learning for High-Entropy-Spinel-Oxides Discovery
 
+## Installation
+```
+mamba create --name alhesos python=3.10 -y
+mamba activate alhesos
+pip install typed-argument-parser tqdm pandas numpy sqlalchemy
+```
+
 ## Database
 Database Creation, data import and export.
    1. Create the database.
@@ -33,6 +40,6 @@ Database Creation, data import and export.
 See [notebook](https://github.com/Xiangyan93/Active-Learning-HESOs/tree/master/notebook).
 
 ## Citations <a name="citations"></a>
-If you find the code useful in your research, please cite the JACS paper:
+If you find the code useful in your research, please cite the paper:
 
 [Active Learning Guided Discovery of High Entropy Oxides Featuring High H2-production](https://pubs.acs.org/doi/abs/10.1021/jacs.4c06272)
